@@ -1,0 +1,1267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BestCarTemplate /> Render must match regular() 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="alert"
+  >
+    <div
+      className="flash-messages"
+    >
+      <div
+        className="flash flash-success"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="mr-2"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "currentColor",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        Ready...
+      </div>
+    </div>
+  </div>
+  <div
+    className="navigator"
+  >
+    <div
+      className="navigatorHeading Subhead"
+    >
+      <div
+        className="Subhead-heading"
+      >
+        Best Cars
+      </div>
+    </div>
+    <div
+      className="tabnav"
+    >
+      <nav
+        aria-label="List Cars"
+        className="tabnav-tabs"
+      >
+        <a
+          aria-current="page"
+          className="tabnav-tab"
+          href="/list"
+          onClick={[Function]}
+        >
+          List Cars
+        </a>
+        <a
+          className="tabnav-tab"
+          href="/best"
+          onClick={[Function]}
+        >
+          Best Cars
+        </a>
+      </nav>
+    </div>
+    <div
+      className="navigatorHeading Subhead"
+    >
+      <div
+        className="Subhead-heading"
+      >
+        Top Deals
+      </div>
+    </div>
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="contentDisplay"
+    >
+      <div
+        className="contentDisplaySearch"
+      >
+        <div
+          className="contentDisplaySearchPart"
+        >
+          <div
+            className="contentDisplaySearchPartField"
+          >
+            <span
+              className="contentDisplaySearchPartFieldLabel IssueLabel bg-blue text-white"
+              title="Label: Fuel Price (€/L). Enter a value between 0.5 and 2"
+            >
+              Fuel Price (€/L). Enter a value between 0.5 and 2
+            </span>
+            <input
+              aria-label="Type in fuel price"
+              className="contentDisplaySearchPartFieldInput form-control"
+              data-test={null}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Type fuel price and press Enter to search. Press ESC to clear."
+              type="text"
+              value={0.73}
+            />
+          </div>
+          <div
+            className="contentDisplaySearchPartField"
+          >
+            <span
+              className="contentDisplaySearchPartFieldLabel IssueLabel bg-blue text-white"
+              title="Label: Period (number of years). Enter a value between 1 and 10"
+            >
+              Period (number of years). Enter a value between 1 and 10
+            </span>
+            <input
+              aria-label="Type in year period"
+              className="contentDisplaySearchPartFieldInput form-control"
+              data-test={null}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Type year period and press Enter to search. Press ESC to clear."
+              type="text"
+              value={4}
+            />
+          </div>
+        </div>
+        <div
+          className="contentDisplaySearchPart"
+        >
+          <div
+            className="contentDisplaySearchPartField"
+          >
+            <span
+              className="contentDisplaySearchPartFieldLabel IssueLabel bg-blue text-white"
+              title="Label: Montly Travel Distance (km). Enter a value between 100 and 2000"
+            >
+              Montly Travel Distance (km). Enter a value between 100 and 2000
+            </span>
+            <input
+              aria-label="Type in monthly travel distance"
+              className="contentDisplaySearchPartFieldInput form-control"
+              data-test={null}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyUp={[Function]}
+              placeholder="Type monthly travel distance and press Enter to search. Press ESC to clear."
+              type="text"
+              value={250}
+            />
+          </div>
+        </div>
+      </div>
+      <nav
+        aria-label="Pagination Top"
+        className="contentDisplayPagination paginate-container"
+      >
+        <div
+          className="pagination d-flex"
+        >
+          <span
+            aria-disabled="true"
+          >
+            &lt;
+          </span>
+          <span>
+            Viewing 1 to 3
+          </span>
+          <a
+            aria-label="Next"
+            href="#url"
+            onClick={[Function]}
+            rel="next"
+          >
+            &gt;
+          </a>
+        </div>
+      </nav>
+      <div
+        className="contentDisplayGridBestCars"
+      >
+        <div
+          className="d-flex flex-row flex-items-start bg-blue-light border"
+        >
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-2 flex-justify-center"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="m-0 form-checkbox"
+              data-test={null}
+            >
+              <label
+                htmlFor="checkbox"
+              >
+                <input
+                  aria-describedby="isSelected"
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </label>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                License
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Brand
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Model
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Year
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Bodywork
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Color
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Fuel
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Transmission
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Consumption
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Cost
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Maintenance
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              >
+                <span
+                  className="ml-1 text-gray-light"
+                >
+                   |
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            className="h6 d-flex flex-row p-2 css-truncate css-truncate-overflow item col-12 flex-justify-between"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <div
+              className="d-flex flex-justify-between width-full"
+            >
+              <div
+                className="css-truncate css-truncate-overflow"
+              >
+                Price
+              </div>
+              <div
+                className="d-flex flex-items-start ml-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex flex-row flex-items-start border item row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+          >
+            <div
+              className="m-0 form-checkbox"
+              data-test={null}
+            >
+              <label
+                htmlFor="checkbox"
+              >
+                <input
+                  aria-describedby="isSelected"
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </label>
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              U-758-R
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Alfa Romeo
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              GTV
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              1958
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              MPV
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Other colors
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Other fuels
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Automatic
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              23.7
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              61479.62
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              4055
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              44890
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex flex-row flex-items-start border item row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+          >
+            <div
+              className="m-0 form-checkbox"
+              data-test={null}
+            >
+              <label
+                htmlFor="checkbox"
+              >
+                <input
+                  aria-describedby="isSelected"
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </label>
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              N-534-ZT
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Ford
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Focus
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              1954
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Convertible
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Blue
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              LPG
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Automatic
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              9.36
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              59684.90
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              910
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              55109
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex flex-row flex-items-start border item row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+          >
+            <div
+              className="m-0 form-checkbox"
+              data-test={null}
+            >
+              <label
+                htmlFor="checkbox"
+              >
+                <input
+                  aria-describedby="isSelected"
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </label>
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              EG-438-WX
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Saab
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              900
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              1997
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Other bodyworks
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Black
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Gasoline
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Automatic
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              6.19
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              29512.19
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              4539
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              9941
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex flex-row flex-items-start border item row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+          >
+            <div
+              className="m-0 form-checkbox"
+              data-test={null}
+            >
+              <label
+                htmlFor="checkbox"
+              >
+                <input
+                  aria-describedby="isSelected"
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </label>
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              D-606-M
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Lamborghini
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Reventon
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              1925
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              SUV
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              White
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Diesel
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Manual
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              15.03
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              29351.83
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              4445
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              10989
+            </div>
+          </div>
+        </div>
+        <div
+          className="d-flex flex-row flex-items-start border item row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-2 flex-justify-center"
+          >
+            <div
+              className="m-0 form-checkbox"
+              data-test={null}
+            >
+              <label
+                htmlFor="checkbox"
+              >
+                <input
+                  aria-describedby="isSelected"
+                  checked={false}
+                  onChange={[Function]}
+                  type="checkbox"
+                />
+              </label>
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              N-856-4
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Subaru
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Mini-jumbo
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              2019
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Station wagon
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              White
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              LPG
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              Manual
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              18.4
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              32132.09
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              2042
+            </div>
+          </div>
+          <div
+            className="d-flex flex-row p-2 css-truncate css-truncate-overflow no-wrap col-12 flex-justify-start"
+          >
+            <div
+              className="css-truncate css-truncate-overflow"
+            >
+              23488
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav
+        aria-label="Pagination Bottom"
+        className="contentDisplayPagination paginate-container"
+      >
+        <div
+          className="pagination d-flex"
+        >
+          <span
+            aria-disabled="true"
+          >
+            &lt;
+          </span>
+          <span>
+            Viewing 1 to 3
+          </span>
+          <a
+            aria-label="Next"
+            href="#url"
+            onClick={[Function]}
+            rel="next"
+          >
+            &gt;
+          </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div
+    className="alert"
+  >
+    <div
+      className="flash-messages"
+    >
+      <div
+        className="flash flash-success"
+      >
+        <mock-file
+          aria-hidden="true"
+          aria-label={null}
+          className="mr-2"
+          height={16}
+          role="img"
+          style={
+            Object {
+              "display": "inline-block",
+              "fill": "currentColor",
+              "userSelect": "none",
+              "verticalAlign": "text-bottom",
+            }
+          }
+          viewBox="0 0 16 16"
+          width={16}
+        />
+        Ready...
+      </div>
+    </div>
+  </div>
+</div>
+`;
