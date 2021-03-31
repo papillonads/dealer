@@ -1,4 +1,3 @@
-import React from 'react'
 import { getSelectedItemText } from '@papillonads/library/array'
 import { getLocaleDateTimeString } from '@papillonads/library/date'
 import { primer } from '@papillonads/components'

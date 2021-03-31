@@ -1,4 +1,3 @@
-import React from 'react'
 import { BestCarTemplate } from '../../template/BestCarTemplate'
 import { defaultProps, propTypes } from './BestCarPage.prop'
 
