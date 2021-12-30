@@ -35,7 +35,6 @@ describe('index', () => {
   describe('appRootRoute', () => {
     const expectedAppRootRoute = {
       path: path.appRootPath,
-      exact: true,
     }
 
     test('must return app root route object', () => {
@@ -49,7 +48,6 @@ describe('index', () => {
 
     const expectedListCarPageRoute = {
       path: path.listCarPagePath,
-      exact: true,
       clientComponent: listCarPage.AsyncListCarPage,
       serverComponent: listCarPage.ListCarPage,
     }
@@ -65,7 +63,6 @@ describe('index', () => {
 
     const expectedBestCarPageRoute = {
       path: path.bestCarPagePath,
-      exact: true,
       clientComponent: bestCarPage.AsyncBestCarPage,
       serverComponent: bestCarPage.BestCarPage,
     }

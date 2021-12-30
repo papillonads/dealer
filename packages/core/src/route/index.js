@@ -5,19 +5,16 @@ import { appRootPath, listCarPagePath, bestCarPagePath } from './path'
 
 export const appRootRoute = {
   path: appRootPath,
-  exact: true,
 }
 
 export const listCarPageRoute = {
   path: listCarPagePath,
-  exact: true,
   clientComponent: AsyncListCarPage,
   serverComponent: ListCarPage,
 }
 
 export const bestCarPageRoute = {
   path: bestCarPagePath,
-  exact: true,
   clientComponent: AsyncBestCarPage,
   serverComponent: BestCarPage,
 }
