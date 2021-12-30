@@ -16,6 +16,7 @@ export function getListCarsObjectsByBrand({ objects, brand }) {
 
   objectsByBrand = [
     ...objectsByBrand,
+    // eslint-disable-next-line no-unsafe-optional-chaining
     ...objects?.filter((filterObject) => {
       const selectedFilterObjectBrandText = filterObject.brand.find(({ isSelected }) => isSelected === true).text
 
@@ -41,6 +42,7 @@ export function getListCarsObjectsByYear({ objects, year }) {
 
   objectsByYear = [
     ...objectsByYear,
+    // eslint-disable-next-line no-unsafe-optional-chaining
     ...objects?.filter((filterObject) => {
       const selectedFilterObjectYearText = filterObject.year.find(({ isSelected }) => isSelected === true).text
 
